@@ -9,6 +9,7 @@ import lombok.AllArgsConstructor;
 public class MaxPriceFilteringStrategy implements FilteringStrategy {
     private double maxPrice;
 
+    // Write your code here!
     @Override
     public boolean filter(Product product) {
         return product.getPrice() <= maxPrice;
